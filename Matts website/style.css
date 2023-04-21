@@ -1,0 +1,60 @@
+body {
+    background-color: #a7b6cc;
+}
+
+#container {
+    background-color: #30586D;
+    font-style: oblique;
+}
+
+#header {
+    background-color: #3774C1; 
+}
+
+#nav {
+    background-color: beige;
+    
+}
+
+#main {
+    text-align: center;
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    opacity: 0.5;
+    
+}
+.photos:hover{
+    opacity:1.0;
+}
+
+/*html {
+    position: relative;
+    min-height: 100%;
+  } 
+  body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+   */
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: black;
+    color: white;
+  }
+
+
+
+
+
+
+
