@@ -17,8 +17,8 @@ body {
 }
 
 #main {
-    text-align: center;
-    position: relative;
+    /* text-align: center; */
+    /* position: relative; */
     left: 20px;
     color: white;
 }
@@ -28,12 +28,12 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     
 }
-.photos:hover{
-    opacity:1.0;
-}
+/* .photos:hover{
+    opacity:2.0;
+} */
 
 /*html {
     position: relative;
@@ -51,10 +51,17 @@ body {
     background-color: black;
     color: white;
   }
+.float-right{
+    position:right;
+    top: -1px;
+}
+.icon{
+    position:absolute; 
+}
 
-
-
-
+#icons {
+    justify-content: space-between;
+}
 
 
 
